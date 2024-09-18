@@ -241,3 +241,54 @@ body{
     background-color: rgb(37, 114, 96);
     color: #fff;
 }
+.container-03{
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.container-03 h1{
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+.container-03 h1 a{
+    color: rgb(60, 194, 163);
+    text-decoration: none;
+}
+.sub-container-of-container-03{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sub-container-of-container-03 div{
+    height: 220px;
+    text-align: start;
+    padding: 60px;
+}
+.sub-container-of-container-03 h2{
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+.sub-container-of-container-03 h5{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.sub-container-of-container-03 p{
+    font-size: 12px;
+}
+.text{
+    background: linear-gradient(to right, #111111, #2e2d2d);
+    z-index: 1;
+}
+.images{
+    background-image: url(./images/html.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s ease;
+}
+.images:hover{
+    transform: scale(1.01);
+    overflow: hidden;
+}
