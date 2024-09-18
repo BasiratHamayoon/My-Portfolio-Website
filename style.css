@@ -420,3 +420,40 @@ body{
 .dives img{
     animation: scale-icons 2s linear infinite;
 }
+.footer{
+    width: 100%;
+    background-color: #111111;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 0px;
+}
+.footer h2{
+    font-weight: lighter;
+}
+.footer p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.footer img{
+    width: 35px;
+    height: 35px;
+}
+#last{
+    font-size: 8px;
+    color: #969191;
+    margin-top: 20px;
+}
+ @keyframes scale-icons{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
