@@ -359,3 +359,36 @@ body{
     box-shadow: 0px 0px 8px rgb(60, 194, 163); 
     animation: scale-button 2s linear infinite;  
 }
+@keyframes scale-button{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.aside-container button:hover{
+    color: #fff;
+    background-color: rgb(37, 114, 96);
+}
+.container-05{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-05 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 100px;
+}
+.container-05 h1 a{
+    text-decoration: none;
+    color: rgb(37, 114, 96);
+}
