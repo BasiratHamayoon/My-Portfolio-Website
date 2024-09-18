@@ -177,3 +177,67 @@ body{
         transform: scale(1);
     }
 }
+.Container-02{
+    width: 98%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.Container-02 h1{
+    color: rgb(60, 194, 163);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.Container-02 h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.paragraph-of-container-02{
+    width: 40%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    color: #d8d6d6;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.Sub-Container-of-Container-01{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: rgb(60, 194, 163);
+    margin-top: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    grid-gap: 30px;
+}
+.Sub-Container-of-Container-01 div{
+    background-color: rgb(37, 37, 37);
+    color: rgb(35, 109, 92);
+    height: 300px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    padding: 10px;
+    /* border: 2px solid rgb(37, 114, 96);  */
+    transition: 0.5s ease; 
+}
+.Sub-Container-of-Container-01 div:hover{
+    transform: scale(1.06);
+}
+.Sub-Container-of-Container-01 div img{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    animation: animate 0.5s linear infinite;
+}
+.Sub-Container-of-Container-01 div h5{
+    font-size: 20px;
+    margin: 10px;
+}
+.Sub-Container-of-Container-01 div p{
+   font-size: 12px;
+}
+.Sub-Container-of-Container-01 div:hover{
+    background-color: rgb(37, 114, 96);
+    color: #fff;
+}
