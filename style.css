@@ -392,3 +392,31 @@ body{
     text-decoration: none;
     color: rgb(37, 114, 96);
 }
+.container-05 p{
+    font-size: 10px
+}
+.sub-container-of-container-05{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 100px;
+}
+.dives{
+    background-color: rgb(32, 32, 32);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+    transition: 1.5s ease;
+    height: 80px;
+}
+.dives:hover{
+    transform: scale(1.1);
+}
+.dives img{
+    animation: scale-icons 2s linear infinite;
+}
