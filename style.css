@@ -20,13 +20,19 @@ body{
     z-index: 10;
     /* box-shadow: 0px 0px 20px rgb(46, 99, 86); */
 }
-/* .navbar h3{
-    margin-left: 105px;
+.navbar h3{
     font-size: 27px;
     color: #fff;
     margin-top: 29px;
-    font-weight: lighter;
-} */
+    color: rgb(57, 162, 138);
+    margin-left: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#Logo{
+   color: #fff;
+   margin-left: 95px;
+   font-size: 10px;
+}
  .navbar img{
     width: 230px;
     height: 200px;
@@ -89,6 +95,7 @@ body{
     text-align: start;
     visibility: hidden;
 }
+
 #close img{
     width: 22px;
     height: 22px;
@@ -498,6 +505,7 @@ body{
         flex-wrap: wrap;
         margin-left: 15px;
         margin-bottom: 100px;
+        margin-top: 40px;
     }
     .text-container h1{
         font-size: 28px;
@@ -581,5 +589,13 @@ body{
     }
     .navbar img{
         margin-left: -25px;
+    }
+    .navbar h3{
+        margin-left: 40px;
+        font-size: 19px;
+    }
+    #Logo{
+        margin-left: 25px;
+        font-size: 8px;
     }
 }
